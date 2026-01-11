@@ -1,0 +1,13 @@
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+html, #root {
+  height: 100%;
+  font-family: Arial, sans-serif;
+
+  scroll-behavior: smooth;
+}
