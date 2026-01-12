@@ -1,5 +1,8 @@
 import React from 'react'
-import Logo from '../assets/logo.png'
+import Logo from '../assets/assests/Logo.svg'
+import {HiOutlineBars3} from 'react-icons/hi2'
+import { BsCart2} from 'react-icons/bs'
+import { Box, Drawer, ListItem, ListItemButton, } from '@mui/material'
 const Navbar = () => {
   return (
     <div>
