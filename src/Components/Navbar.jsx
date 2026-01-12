@@ -16,8 +16,32 @@ import
         import { CommentRounded } from '@mui/icons-material'
         import { PhoneRounded } from '@mui/icons-material'
         import { ShoppingCartRounded } from '@mui/icons-material'
-const Navbar = () => {
 
+
+const Navbar = () => {
+    const [open, setOpen] = React.useState(false);
+    const [menuOption] = [
+        {
+            text: 'Home', 
+            icon: <Home />
+        },
+        {
+            text: 'About', 
+            icon: <Info />
+        },
+        {
+            text: 'Contact', 
+            icon: <CommentRounded />
+        },
+        {
+            text: 'Phone', 
+            icon: <PhoneRounded />
+        },
+        {
+            text: 'Cart', 
+            icon: <ShoppingCartRounded />
+        }
+    ]
   return (
     <div>
         <nav className="navbar">
