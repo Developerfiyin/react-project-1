@@ -44,19 +44,40 @@ const Navbar = () => {
     ]
   return (
     <div>
-        <nav className="navbar">
+        <nav className="nav">
             <div className="nav-logo-container">
                 <img src={Logo} alt="Logo" />
             </div>
 
-            <div className='nav-links-container'>
+            <div className='navbar-links-container'>
                 <a href="#home">Home</a>
                 <a href="#about">About</a>
                 <a href="#contact">Contact</a>
                 <a href="#phone">Phone</a>
                 <a href="#cart">Cart</a> 
-                <BsCart2 className='navbar-cart-icon'/>
-                <button>Menu</button>
+                <a href="">
+                <BsCart2 className='navbar-cart-icon'/></a>
+              <button className='primary-button'>Booking Now</button>
+            </div>
+
+            <div className='menu-'> 
+   <HiOutlineBars3 onClick={() => setOpenMenu(true)}/>
+    <Drawer open={openMenu} onClose={() => setOpenMenu(false)}>
+        <Box sx={{ width: 250 }} role="presentation" onClick={() => setOpenMenu(false)}>
+            <List>
+                {menuOption.map((option) => (
+                    <ListItem key={option.text} disablePadding>
+                        <ListItemButton>
+                            <ListItemIcon>
+                                {option.icon}
+                            </ListItemIcon>
+                            <ListItemText primary={option.text} />
+                        </ListItemButton>
+                    </ListItem>
+                ))}
+            </List>
+        </Box>
+    </Drawer>
             </div>
         </nav>
     </div>
