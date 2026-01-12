@@ -23,7 +23,7 @@ const Navbar = () => {
     const [openMenu, setOpenMenu] = React.useState(false);
 
 
-    const [menuOptions] = [
+    const menuOptions = [
         {
             text: 'Home', 
             icon: <Home />
@@ -73,7 +73,7 @@ const Navbar = () => {
         onClick={() => setOpenMenu(false)}
         onKeyDown={() => setOpenMenu(false)}
         > 
-        
+         
         <List>
             {menuOptions.map((item) => (
                 <ListItem key={item.text} disablePadding>
@@ -86,10 +86,10 @@ const Navbar = () => {
         </List>
         
           </Box>
-    </Drawer>
+        </Drawer>
 
             </div>
-        </nav>
+        </nav>  
     </div>
   )
 }
