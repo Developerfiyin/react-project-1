@@ -19,7 +19,7 @@ import
 
 
 const Navbar = () => {
-    const [open, setOpen] = React.useState(false);
+    const [openMenu, setOpenMenu] = React.useState(false);
     const [menuOption] = [
         {
             text: 'Home', 
@@ -47,6 +47,16 @@ const Navbar = () => {
         <nav className="navbar">
             <div className="nav-logo-container">
                 <img src={Logo} alt="Logo" />
+            </div>
+
+            <div className='nav-links-container'>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+                <a href="#phone">Phone</a>
+                <a href="#cart">Cart</a> 
+                <BsCart2 className='navbar-cart-icon'/>
+                <button>Menu</button>
             </div>
         </nav>
     </div>
