@@ -22,7 +22,6 @@ const Home = () => {
            <button className='secondary-button'>
             Order Now <BsArrowBarRight/>
            </button>
-
          </div>
 
           <div className='home-image-container'>
