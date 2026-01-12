@@ -5,6 +5,7 @@ import { BsCart2} from 'react-icons/bs'
 import
  { Box,
      Drawer,
+     List,
       ListItem, 
       ListItemButton,
        ListItemIcon,
@@ -20,7 +21,7 @@ import
 
 const Navbar = () => {
     const [openMenu, setOpenMenu] = React.useState(false);
-    const [menuOption] = [
+    const [menuOptions] = [
         {
             text: 'Home', 
             icon: <Home />
@@ -60,24 +61,13 @@ const Navbar = () => {
               <button className='primary-button'>Booking Now</button>
             </div>
 
-            <div className='menu-'> 
+            <div className='menu-container'> 
    <HiOutlineBars3 onClick={() => setOpenMenu(true)}/>
-    <Drawer open={openMenu} onClose={() => setOpenMenu(false)}>
-        <Box sx={{ width: 250 }} role="presentation" onClick={() => setOpenMenu(false)}>
-            <List>
-                {menuOption.map((option) => (
-                    <ListItem key={option.text} disablePadding>
-                        <ListItemButton>
-                            <ListItemIcon>
-                                {option.icon}
-                            </ListItemIcon>
-                            <ListItemText primary={option.text} />
-                        </ListItemButton>
-                    </ListItem>
-                ))}
-            </List>
-        </Box>
+    <Drawer open={openMenu} on Close={() => setOpenMenu(false)} anchor='right'>
+    
+    
     </Drawer>
+
             </div>
         </nav>
     </div>
