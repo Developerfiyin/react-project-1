@@ -3,6 +3,7 @@ import Navbar from './Navbar'
 import bannerBackground from '../assets/assests/home-banner-background.png'
 import BannerImage from '../assets/assests/home-banner-image.png'
 import { BsArrowBarRight } from 'react-icons/bs'
+import { ArrowRight } from '@mui/icons-material'
 
 const Home = () => {
   return (
@@ -23,6 +24,10 @@ const Home = () => {
            </button>
 
          </div>
+
+          <div className='home-image-container'>
+            <img src={BannerImage} alt="" />
+             </div>
 
          </div> 
     </div>
