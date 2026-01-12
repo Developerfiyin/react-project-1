@@ -21,6 +21,8 @@ import
 
 const Navbar = () => {
     const [openMenu, setOpenMenu] = React.useState(false);
+
+
     const [menuOptions] = [
         {
             text: 'Home', 
@@ -43,11 +45,12 @@ const Navbar = () => {
             icon: <ShoppingCartRounded />
         }
     ]
+
   return (
     <div>
         <nav className="nav">
             <div className="nav-logo-container">
-                <img src={Logo} alt="Logo" />
+                <img src={Logo} alt=" " />
             </div>
 
             <div className='navbar-links-container'>
@@ -64,7 +67,6 @@ const Navbar = () => {
             <div className='menu-container'> 
    <HiOutlineBars3 onClick={() => setOpenMenu(true)}/>
     <Drawer open={openMenu} onClose={() => setOpenMenu(false)} anchor='right'>
-    
       <Box 
         sx={{width: 250}}
         role='presentation'
@@ -83,10 +85,7 @@ const Navbar = () => {
             ))}
         </List>
         
-        
           </Box>
-
-    
     </Drawer>
 
             </div>
