@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import Home from './Components/Home.jsx'
+import About from './Components/About.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,7 +11,8 @@ function App() {
       <div>
         
         <Home />
-       hello world, jrbfeh
+        <About/>
+       
 
       </div>
      
