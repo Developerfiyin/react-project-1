@@ -3,6 +3,7 @@ import './App.css'
 import Home from './Components/Home.jsx'
 import About from './Components/About.jsx'
 import Work from './Components/Work.jsx'
+import Testimonials from './Components/Testimonials.jsx'
 
 function App() {
   const [count, setCount] = useState(0)

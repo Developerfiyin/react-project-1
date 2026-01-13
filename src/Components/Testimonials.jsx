@@ -25,6 +25,7 @@ const Testimonials = () => {
             <AiFillStar />
             <AiFillStar />
         </div>
+
         
       </div>
 
