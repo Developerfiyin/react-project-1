@@ -9,13 +9,18 @@ import { FaYoutube } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-<div className='footer-wra'>
+<div className='footer-wrapper'>
 
-<div>
+<div className='footer-section-one'>
+     
+     <div className='footer-logo-container'>
+        <img src={logo} alt=" The FOOTER LOGO" />
 
+     </div>
+        
 </div>
     </div>
   )
-}
+};
 
 export default Footer
