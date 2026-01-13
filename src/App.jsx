@@ -5,7 +5,7 @@ import About from './Components/About.jsx'
 import Work from './Components/Work.jsx'
 import Testimonials from './Components/Testimonials.jsx'
 import Contact from './Components/Contact.jsx'
-import Footer from './Components/Footer.js'
+import Footer from './Components/Footer.jsx'
 function App() {
   
 
