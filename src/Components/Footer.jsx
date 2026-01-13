@@ -12,11 +12,9 @@ const Footer = () => {
 <div className='footer-wrapper'>
 
 <div className='footer-section-one'>
-     
      <div className='footer-logo-container'>
         <img src={logo} alt=" The FOOTER LOGO"/>
      </div>
-        
         <div className='footer-icons'>
             <FaFacebookF/>
             <BsTwitter/>
@@ -24,7 +22,19 @@ const Footer = () => {
             <FaInstagram/>
             <FaYoutube/>
          </div>
+    </div>
+    <div className='footer-section-two'>
+        <div className='footer-section-column'>
+            <span> Quality </span>
+            <span> Help </span>
+            <span> Share </span>
+            <span>Career</span>
+            <span>Testimonials </span>
+            <span> Work</span>
 
+
+        </div>
+        <p className='footer-copyright-text'> &copy; 2024 Your Company. All rights reserved. </p>
     </div>
 </div>
     
