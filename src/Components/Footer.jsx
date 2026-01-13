@@ -31,10 +31,16 @@ const Footer = () => {
             <span>Career</span>
             <span>Testimonials </span>
             <span> Work</span>
-
-
         </div>
-        <p className='footer-copyright-text'> &copy; 2024 Your Company. All rights reserved. </p>
+        
+        <div className='footer-section-columns'>
+          <span>1234-456-456-456</span>
+          <span>contact@company.com</span>
+          <span> 123 Street, City, Country </span>
+          <span> okaynaw@gmail.com</span>
+          <span>oyanaw@gmail.com</span>
+        </div>
+        
     </div>
 </div>
     
