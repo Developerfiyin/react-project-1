@@ -26,7 +26,7 @@ const Work = () => {
     <section className="work-section-wrapper">
        <div className="work-section-top"> 
         <p className='primary-subheading'> Work</p>
-        <h2 className="primary-subheading">How It Works</h2>
+        <h2 className="primary-heading">How It Works</h2>
         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta at obcaecati rerum? Eos, saepe reiciendis ipsum unde 
             voluptatum aliquam maiores quibusdam sapiente at ducimus odit eum ex, tempore quidem. Necessitatibus!</p>
        </div>
