@@ -24,7 +24,7 @@ const Footer = () => {
          </div>
     </div>
     <div className='footer-section-two'>
-        <div className='footer-section-column'>
+        <div className='footer-section-columns'>
             <span> Quality </span>
             <span> Help </span>
             <span> Share </span>
@@ -40,7 +40,12 @@ const Footer = () => {
           <span> okaynaw@gmail.com</span>
           <span>oyanaw@gmail.com</span>
         </div>
-        
+
+        <div className='footer-section-columns'>
+          <span>Terms and condition</span>
+          <span>Privacy Policy </span>
+
+        </div>
     </div>
 </div>
     
