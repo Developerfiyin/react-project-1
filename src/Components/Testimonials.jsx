@@ -3,30 +3,30 @@ import john from '../assets/assests/john-doe-image.png'
 import { AiFillStar } from 'react-icons/ai'
 const Testimonials = () => {
   return (
-    <section className="testimonials-section-wrapper">
-      <div className="testimonials-section-top">
+    <section className="work-section-wrapper">
+      <div className="work-section-top">
         <p className='primary-subheading'>Testimonials</p>
         <h2 className="primary-heading">What are Our Customers Saying ? </h2>
           <p className=' primary-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et veritatis deleniti, velit qui exercitationem illo nisi aspernatur 
             atque voluptatum, sed dolorem ullam quis dolores ipsa. Vel dicta fugiat exercitationem nesciunt.</p>
       </div>
 
-      <div className="testimonials-section-bottom">
+      <div className="testimonial-section-bottom">
         <div className="testimonial-box">
           <img src={john} alt="John Doe" />
           <p className='primary-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et veritatis deleniti, velit qui exercitationem illo nisi aspernatur 
             atque voluptatum, sed dolorem ullam quis dolores ipsa. Vel dicta fugiat exercitationem nesciunt.</p>
         </div>
 
-        <div className='testimonials-star-container'>
+        <div className='testimonials-stars-container'>
             <AiFillStar />
             <AiFillStar />
             <AiFillStar />
             <AiFillStar />
             <AiFillStar />
         </div>
+        <h2> John Doe</h2>
 
-        
       </div>
 
       
