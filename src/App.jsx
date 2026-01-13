@@ -5,9 +5,9 @@ import About from './Components/About.jsx'
 import Work from './Components/Work.jsx'
 import Testimonials from './Components/Testimonials.jsx'
 import Contact from './Components/Contact.jsx'
-
+import Footer from './Components/Footer.js'
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
@@ -17,6 +17,7 @@ function App() {
        <Work/>
        <Testimonials/>
         <Contact/>
+        <Footer/>
       </div>
      
     </>
