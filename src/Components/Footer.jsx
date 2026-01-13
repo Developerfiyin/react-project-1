@@ -44,8 +44,8 @@ const Footer = () => {
         <div className='footer-section-columns'>
           <span>Terms and condition</span>
           <span>Privacy Policy </span>
-
         </div>
+        
     </div>
 </div>
     

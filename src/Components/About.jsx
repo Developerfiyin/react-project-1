@@ -16,9 +16,12 @@ const About = () => {
             <img src={bannerBackground} alt="ABOUT BANNER BACKGROUND Image" />
         </div>
 
-<div className="about-section-text-container">
-            <h2>About </h2>
-            <p>Food is an important part of diet.</p>
+   <div className="about-section-text-container">
+            <h2 className='primary-subheading'>About </h2>
+            <h1 className='primary-heading'>Food is an important part of diet.</h1>
+
+            <p className='primary-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p className='primary-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
 
     </section>
